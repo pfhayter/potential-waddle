@@ -97,6 +97,21 @@
       .button:hover {
         background-color: #111;
       }
+      
+      @media (orientation: portrait) {
+  .fill-animation {
+    height: 0;
+    width: 100%;
+  }
+}
+  
+@media (orientation: landscape) {
+  .fill-animation {
+    height: 100%;
+    width: 0;
+  }
+}
+
     </style>
   </head>
   <body>
