@@ -98,18 +98,19 @@
         background-color: #111;
       }
       
-      @media (orientation: portrait) {
-  .fill-animation {
-    height: 0;
-    width: 100%;
+     @media (orientation: portrait) {
+  body {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+  }
+
+  .fill-animation-container {
+    height: 50%;
   }
 }
-  
-@media (orientation: landscape) {
-  .fill-animation {
-    height: 100%;
-    width: 0;
-  }
+
 }
 
     </style>
